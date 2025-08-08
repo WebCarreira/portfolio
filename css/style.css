@@ -12,8 +12,9 @@
 }
 
 body{
-    width: 100vw;
-    background: var(--platinum_smoke);
+    width: 90vw;
+    /*background: var(--platinum_smoke);*/
+    background: lightgray;
     font-family: var(--tipo_letra);
 
 }
@@ -24,13 +25,13 @@ body{
 }
 
 .cabecalho{
-    display: flex;
     height: 15%;
 }
 
 .cabecalho a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .cabecalho nav ul li{
@@ -39,10 +40,8 @@ body{
 
 .menu_container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: row;
+    margin: 10px;
 }
 
-.menu{
-    align-content: start;
-}
