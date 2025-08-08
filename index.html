@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O meu Portfólio</title>
+    <meta name="theme-color" content="#D2C1B6"> <!--APENAS VISIVEL EM SMARTPHONES OU TABLET-->
+    <title>DC WebLab</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="cabecalho">
+        <a href="index.html" rel="noopener noreferrer">
+            <img  class="logo" src="img/logotipo/ChatGPT Image 23_07_2025, 10_24_18.png" alt="Logo DC WebLab">
+        </a>
         <nav>
-            <ul>
-                <li>Página Inicial</li>
-                <li>Sobre</li>
-                <li>Galeria</li>
-                <li>Contatos</li>
-                <li></li>
+            <ul class="menu_container">
+                <li class="menu"><a href="#">Página Inicial</a></li>
+                <li class="menu"><a href="#">Sobre</a></li>
+                <li class="menu"><a href="#">Galeria</a></li>
+                <li class="menu"><a href="#">Contactos</a></li>
             </ul>
         </nav>
     </header>
@@ -35,14 +38,30 @@
                 </ul>
             </p>
         </section>
+        <section>
+            <article>
+                <h3>Página Estática</h3>
+                <p>Página que não sofre alterações, é feita defenitivamente.</p>
+                <a href="contactos.html" class="botao-orcamento">Pedir Orçamento</a>
+            </article>
+            <article>
+                <h3>Site dinâmico</h3>
+                <p>Site que sofre actualizações regulares.</p>
+                <a href="contactos.html" class="botao-orcamento">Pedir Orçamento</a>
+            </article>
+            <article>
+                <h3>Loja online</h3>
+                <p>Site de divulgação de loja online.</p>
+                <a href="contacto.html" class="botao-orcamento">Pedir Orçamento</a>
+            </article>
+        </section>
         <section class="testemunhos">
-            <h2>O que os clientes acharam:</h2>
+            <h2>Testemunhos:</h2>
             <article>
                 <h3>Nome empresa/associação</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, omnis vitae! Enim sed laboriosam sit 
                     nostrum placeat, vel voluptate illo iste natus ad soluta temporibus distinctio? 
                     Earum neque veritatis temporibus?</p>
-                <p></p>
             </article>
             <article>
                 <h3>Nome empresa/associação</h3>
@@ -61,7 +80,7 @@
         </section>
     </main>
     <footer>
-
+        <p>&copy; DC WebLab 2025</p>
     </footer>
     
 </body>
