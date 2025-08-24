@@ -80,13 +80,32 @@ body{
 
 .cards{
     width: 300px;
+    background-color: #12647B;
+    border-radius: 15px;
 }
 
 .cards_container .cards h3{
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .img_card{
     width: 250px;
     margin: 5px;
 }
+
+.cards_container .cards p{
+    margin: 5px;
+}
+
+.cards_container .cards a{
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.botao-orcamento{
+    padding: 2px;
+}
+
