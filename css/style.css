@@ -99,7 +99,7 @@ body{
 }
 
 .cards_container .cards a{
-    align-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
