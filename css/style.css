@@ -82,6 +82,7 @@ body{
     width: 300px;
     background-color: #12647B;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .cards_container .cards h3{
@@ -95,17 +96,19 @@ body{
 }
 
 .cards_container .cards p{
-    margin: 5px;
+    margin: 10px;
 }
 
 .cards_container .cards a{
-    align-items: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    
 }
 
 .botao-orcamento{
-    padding: 2px;
+    padding: 5px;
+    border: 1px dashed black;
+    border-radius: 15px;
 }
 
